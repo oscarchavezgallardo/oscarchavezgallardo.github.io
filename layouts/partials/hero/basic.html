@@ -6,55 +6,36 @@
 {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
 
 {{ if .Params.featureimage }}
-{{- $url:= .Params.featureimage -}}
-{{- if not $featured }}{{ $featured = resources.GetRemote $url }}{{ end -}}
+  {{- $url := .Params.featureimage -}}
+  {{- if not $featured }}{{ $featured = resources.GetRemote $url }}{{ end -}}
 {{ end }}
 
 {{- if not $featured }}
- {{ with .Site.Params.defaultBackgroundImage }}
-  {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-   {{ $featured = resources.GetRemote . }}
-  {{ else }}
-   {{ $featured = resources.Get . }}
+  {{ with .Site.Params.defaultBackgroundImage }}
+    {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+      {{ $featured = resources.GetRemote . }}
+    {{ else }}
+      {{ $featured = resources.Get . }}
+    {{ end }}
   {{ end }}
- {{ end }}
 {{ end -}}
 
-{{ $caption := "" }}
-{{ if .Params.featureimagecaption }}
-{{- $caption = .Params.featureimagecaption -}}
-{{ end }}
-
-{{- $alt := .Page.Title -}}
-{{- with .Page.Params.alt }}{{ $alt = . }}{{ end -}}
-
 {{- with $featured -}}
-    {{ if strings.HasSuffix $featured ".svg" }}
-        {{ with . }}
-        <figure>
-            <img class="w-full rounded-lg single_hero_round nozoom" alt="{{ $alt }}" src="{{ .RelPermalink }}">
-            {{ if $caption }}
-                <figcaption class="text-sm text-neutral-700 dark:text-neutral-400 hover:underline" style="text-align: center;"> {{ $caption | markdownify }} </figcaption>
-            {{end}}
-        </figure>
-        {{ end }}
-    {{ else if $disableImageOptimization }}
-        {{ with . }}
-        <figure>
-            <img class="w-full rounded-lg single_hero_round nozoom" alt="{{ $alt }}" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
-            {{ if $caption }}
-                <figcaption class="text-sm text-neutral-700 dark:text-neutral-400 hover:underline" style="text-align: center;"> {{ $caption | markdownify }} </figcaption>
-            {{end}}
-        </figure>
-        {{ end }}
-    {{ else }}
-        {{ with .Resize (print ($.Site.Params.backgroundImageWidth | default "1200") "x") }}
-        <figure>
-            <img class="w-full rounded-lg single_hero_round nozoom" alt="{{ $alt }}" width="{{ .Width }}" height="{{ .Height }}" src="{{ .RelPermalink }}">
-            {{ if $caption }}
-                <figcaption class="text-sm text-neutral-700 dark:text-neutral-400 hover:underline" style="text-align: center;"> {{ $caption | markdownify }} </figcaption>
-            {{end}}
-        </figure>
-        {{ end }}
-    {{ end }}
+<section class="hero custom-hero"
+  style="
+    background-image: url('{{ .RelPermalink }}');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  ">
+  
+  <!-- CONTENIDO DEL HERO -->
+  <div class="hero-content max-w-4xl mx-auto text-center flex flex-col justify-center items-center"
+       style="min-height:100vh;">
+       
+    {{ partial "hero/home.html" $ }}
+    
+  </div>
+</section>
 {{- end -}}

@@ -1,51 +1,127 @@
-/*
- * === REGLAS DE FONDO Y DISEÑO DE TARJETA (FINAL) ===
- */
-
-/* 1. FORZAR IMAGEN DE FONDO EN EL BODY */
-body {
-    /* La ruta correcta de la imagen (debe estar en static/img/ o assets/img/) */
-    background-image: url("/img/wald.jpg") !important; 
-    background-size: cover !important;
-    background-attachment: fixed !important;
-    background-position: center center !important;
-    background-color: transparent !important; 
+/* =========================================================
+   RESET GLOBAL
+   ========================================================= */
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
 }
 
-/* 2. ASEGURAR QUE EL CONTENEDOR PRINCIPAL SEA TRANSPARENTE */
-.single-header, .list-header, .main-content {
+/* =========================================================
+   NAVBAR TRANSPARENTE (SIN BLOQUE OSCURO)
+   ========================================================= */
+header.header {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+header.header .container,
+header.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent !important;
+}
+
+/* Texto del menú */
+header.header a,
+.header-logo,
+.header-logo a {
+    color: #ffffff !important;
+    font-size: 1.05rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* =========================================================
+   HERO FULLSCREEN (IMAGEN BIEN AJUSTADA)
+   ========================================================= */
+section.hero {
+    min-height: 100vh !important;
+    width: 100%;
+    background-image: url("/img/wald.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-color: transparent !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Quitar overlays oscuros de Blowfish */
+section.hero::before,
+section.hero::after {
+    display: none !important;
+}
+
+/* =========================================================
+   CONTENIDO PRINCIPAL TRANSPARENTE
+   ========================================================= */
+main,
+.bg-neutral-50,
+.dark .bg-neutral-900 {
     background-color: transparent !important;
 }
 
-/* 3. FORZAR DISEÑO DE CUADRÍCULA (GRID) */
+/* =========================================================
+   CARDS / POSTS (ESTILO LIMPIO Y ELEGANTE)
+   ========================================================= */
 #recent-posts-list {
-    display: grid !important; 
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; 
-    gap: 30px !important; 
-    align-items: flex-start !important; 
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 30px !important;
     width: 100% !important;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+    padding: 40px 0 !important;
 }
 
-/* 4. AJUSTE DE LA TARJETA (Para que se vea en dos columnas) */
 .article-link-simple {
-    display: flex !important; 
-    flex-direction: column !important; /* Estructura vertical (imagen arriba, texto abajo) */
-    align-items: center !important; 
+    background-color: rgba(0, 0, 0, 0.45) !important;
+    backdrop-filter: blur(6px) !important;
+    padding: 25px !important;
+    border-radius: 15px !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
     text-align: center !important;
-    width: 100% !important;
-    min-height: 280px !important;
-    padding: 15px !important; 
-    border-radius: 8px !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
-/* 5. AJUSTE DE IMAGEN DESTACADA */
+.article-link-simple:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
 .article-link-simple img {
-    width: 150px !important; 
-    height: 150px !important; 
-    object-fit: contain !important; 
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    border-radius: 12px !important;
     margin-bottom: 15px !important;
 }
-/* ... (Incluye el resto de tus reglas de espaciado si las tenías) ... */
+
+/* =========================================================
+   AJUSTES MÓVIL
+   ========================================================= */
+@media (max-width: 768px) {
+    header.header a {
+        font-size: 1rem;
+    }
+
+    section.hero {
+        background-position: center top !important;
+    }
+}
+
+/* HERO LIMPIO SIN OVERLAYS */
+section.hero.custom-hero::before,
+section.hero.custom-hero::after {
+    display: none !important;
+}
+
+section.hero.custom-hero {
+    margin: 0 !important;
+    padding: 0 !important;
+}
