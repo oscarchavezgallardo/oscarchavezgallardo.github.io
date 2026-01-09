@@ -125,3 +125,30 @@ section.hero.custom-hero {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+/* =========================================================
+   CORRECCIÓN FINAL DE LA FRANJA DEL ENCABEZADO
+   ========================================================= */
+
+/* Elimina el espacio extra en la parte superior del cuerpo */
+body {
+    padding-top: 0 !important;
+}
+
+/* Asegura que el contenedor de navegación no tenga fondo ni márgenes */
+.relative.flex.flex-col.grow {
+    padding-top: 0 !important;
+}
+
+/* Ajuste específico para el encabezado de Blowfish */
+header {
+    background: transparent !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Quita el borde o sombra que pueda generar la franja */
+.fixed-header, .sticky-header {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
