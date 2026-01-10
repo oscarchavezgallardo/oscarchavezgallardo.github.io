@@ -270,8 +270,8 @@
 
 {{ if .Site.Menus.subnavigation }}
   <div
-    class="main-menu flex pb-3 flex-col items-end justify-between md:justify-start space-x-3 {{ if .Site.Params.Logo }}
-      -mt-[15px]
+    class="main-menu flex flex-col items-end justify-between md:justify-start space-x-3 {{ if .Site.Params.Logo }}
+      -mt-[15px] bg-transparent
     {{ end }}">
     <div class="hidden md:flex items-center space-x-5">
       {{ range .Site.Menus.subnavigation }}

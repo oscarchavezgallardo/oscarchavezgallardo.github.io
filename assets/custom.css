@@ -1,55 +1,46 @@
 /* =========================================================
-   BLOWFISH – ELIMINAR BANDA SUPERIOR DEFINITIVAMENTE
+   SOLUCIÓN DEFINITIVA: FONDO TOTAL SIN RECTÁNGULOS
    ========================================================= */
 
-/* 1. Reset total */
+/* 1. Aplicar el fondo a la raíz para que no haya huecos */
 html, body {
-  margin: 0 !important;
-  padding: 0 !important;
-  height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: url("/img/wald.jpg") !important;
+    background-size: cover !important;
+    background-position: center top !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
 }
 
-/* 2. ELIMINAR CAPA SUPERIOR DEL LAYOUT (EL RECTÁNGULO) */
-body::before,
-body::after,
-main::before,
-main::after {
-  content: none !important;
-  display: none !important;
+/* 2. Volver transparentes TODOS los contenedores del tema */
+.relative.flex.flex-col.grow,
+main,
+#content,
+header,
+footer,
+.main-menu,
+section {
+    background-color: transparent !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
-/* 3. Blowfish usa este contenedor como fondo superior */
-.relative.flex.flex-col.min-h-screen {
-  background: transparent !important;
-}
-
-/* 4. Eliminar bg-base del wrapper principal */
-.bg-base-100 {
-  background-color: transparent !important;
-}
-
-/* 5. Header flotante real */
+/* 3. El header debe flotar sin ocupar espacio físico */
 header {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-  z-index: 50;
+    position: absolute !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 100;
 }
 
-/* 6. El hero debe empezar en el borde superior */
-.hero,
-section.hero,
-.hero-container {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  min-height: 100vh;
-}
-
-/* 7. Eliminar padding reservado por header */
-.relative.flex.flex-col.grow {
-  padding-top: 0 !important;
+/* 4. Si la sección 'hero' tiene su propia imagen, la ocultamos 
+      para que se vea el fondo global que pusimos en el paso 1 */
+section.hero, .hero {
+    background-image: none !important;
+    background-color: transparent !important;
+    min-height: 100vh !important;
 }

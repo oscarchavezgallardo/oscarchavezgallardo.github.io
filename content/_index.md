@@ -7,7 +7,7 @@ description: "Esta página fue creada con HUGO."
     {{< icon "triangle-exclamation" >}}
   </span>
   <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">Esta es una demostración de layout <code id="layout">background</code>.</span>
+    <span class="prose dark:prose-invert">Página Web en construcción <code id="layout">background</code>.</span>
     <pulsante
       id="interruttore-layout-pulsante"
       class="px-4 !text-neutral !no-underline round-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
@@ -18,8 +18,8 @@ description: "Esta página fue creada con HUGO."
 </div>
 
 
-```node
-npx blowfish-tools
+```
+                  ¡Bienvenido a mi página Web!
 ```  
 
-{{< youtubeLite id="SgXhGb-7QbU" label="Demo degli strumenti Blowfish" >}}
+{{< youtubeLite id="gXeAp_lyj9s" label="Principios de Mecánica Hamiltoniana" >}}
