@@ -1,43 +1,24 @@
 # -- Theme Options --
-# These options control how the theme functions and allow you to
-# customise the display of your website.
-#
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/configuration/#theme-parameters
-
 colorScheme = "blowfish"
-defaultAppearance = "dark" # valid options: light or dark
+defaultAppearance = "dark" 
 autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
-
 replyByEmail = false
-
 mainSections = ["docs", "posts"]
-# robots = ""
 
 disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = false
-# backgroundImageWidth = 1200
 
-defaultBackgroundImage = "img/wald.jpg" # used as default for background images
-defaultFeaturedImage = "img/cover.png" # used as default for featured images in all articles
-defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
-hotlinkFeatureImage = false
-
-highlightCurrentMenuArea = true
-smartTOC = true
-smartTOCHideUnfocusedChildren = false
-
-fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
-
-giteaDefaultServer = "https://git.fsfe.org"
-forgejoDefaultServer = "https://v11.next.forgejo.org"
+# Estilos de fondo recuperados
+defaultBackgroundImage = "img/wald.jpg" 
+defaultFeaturedImage = "img/cover.png" 
+defaultSocialImage = "/android-chrome-512x512.png" 
 
 [header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed" 
 
 [footer]
   showMenu = true
@@ -47,134 +28,43 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
-#  homepageImage = "img/wald.jpg" # used in: hero, and card
-  showRecent = false
-  showRecentItems = 12
-  showMoreLink = true
-  showMoreLinkDest = "docs"
+  layout = "custom" 
+  # ESTO RECUPERA TUS PUBLICACIONES (No lo pongas en false)
+  showRecent = true 
+  showRecentItems = 10
+  # ESTO ELIMINA EL BANNER AZUL DE "SWITCH CONFIG"
+  showMoreLink = false 
   cardView = false
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
-  disableHeroImageFilter = false # only used when layout equals hero
+  layoutBackgroundBlur = true 
 
 [article]
-  showDate = false
-  showViews = false
-  showLikes = false
-  showDateOnlyInArticle = false
-  showDateUpdated = false
   showAuthor = true
-## showAuthorBottom = true
   showHero = false
-  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = true
-  showDraftLabel = true
-  showEdit = true
-  editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
-  editAppendPath = true
-  seriesOpened = false
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = false
-  showReadingTime = true
+  heroStyle = "basic" 
   showTableOfContents = true
-  showRelatedContent = false
-  relatedContentLimit = 9
-  showTaxonomies = true # use showTaxonomies OR showCategoryOnly, not both
-  showAuthorsBadges = true
-  showWordCount = false
-  sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]
-  showZenMode = true
 
 [list]
-  showHero = false
-  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
+  # CONFIGURACIÓN PARA POSTS PEQUEÑOS (MODO LISTA)
+  showHero = false            # Elimina el error "home.html not found" del terminal
+  heroStyle = "basic"
+  
+  showCards = false           # Quita los cuadros gigantes
+  cardView = false            # Fuerza la vista de lista horizontal
+  compact = true              # ESTA ES LA CLAVE para el tamaño pequeño
+  
+  showSummary = true          # Texto a la derecha de la imagen
+  showViews = true 
+  showLikes = true 
   showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showSummary = false
-  showTableOfContents = true
-  showCards = true
-  orderByWeight = true
   groupByYear = false
-  cardView = true
-  cardViewScreenWidth = false
   constrainItemsWidth = true
 
-[sitemap]
-  excludedKinds = []
-
 [taxonomy]
-  showTermCount = true
-  showHero = false
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
   cardView = false
 
 [term]
-  showHero = false
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  groupByYear = false
-  cardView = true
-  cardViewScreenWidth = false
-
-[firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
-
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-
-[umamiAnalytics]
-  # websiteid = "ABC12345"
-  # domain = "llama.yoursite.com"
-  # dataDomains = "yoursite.com,yoursite2.com"
-  # scriptName = ""
-  # enableTrackEvent = true
-
-[selineAnalytics]
-  # token = "XXXXXX"
-  # enableTrackEvent = true
+  cardView = false 
 
 [buymeacoffee]
   identifier = "oscarchavezgallardo"
   globalWidget = true
-  globalWidgetMessage = "¡Invítame un café!"
-  globalWidgetColor = "#FFDD00"
-  globalWidgetPosition = "right"
-
-
-
-#[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
-  # fediverse = ""
-
-#[rssnext]
-  # feedId = ""
-  # userId = ""
-
-#[advertisement]
-  # adsense = ""
-
-# ... (otras entradas del footer)
