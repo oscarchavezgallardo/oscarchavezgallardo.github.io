@@ -12,7 +12,7 @@ disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = false
 
-# Estilos de fondo recuperados
+# Estilos de fondo
 defaultBackgroundImage = "img/wald.jpg" 
 defaultFeaturedImage = "img/cover.png" 
 defaultSocialImage = "/android-chrome-512x512.png" 
@@ -28,14 +28,11 @@ defaultSocialImage = "/android-chrome-512x512.png"
   showScrollToTop = true
 
 [homepage]
-  # Mantiene tu fondo personalizado activo
   layout = "custom" 
-  # Muestra tus artículos reales debajo del fondo
   showRecent = true 
   showRecentItems = 10
-  # Crucial: Al estar en false, evitamos que se active el modo demo/banner azul
-  showMoreLink = false 
-  cardView = false
+  showMoreLink = true  # Muestra el botón de "Ver más" al final
+  cardView = false     # Desactiva las tarjetas en la página de inicio
   layoutBackgroundBlur = true 
 
 [article]
@@ -45,15 +42,15 @@ defaultSocialImage = "/android-chrome-512x512.png"
   showTableOfContents = true
 
 [list]
-  # Configuración para el diseño de posts pequeños (imagen a la izquierda)
+  # CONFIGURACIÓN PARA EL DISEÑO COMPACTO (IMAGEN A LA IZQUIERDA)
   showHero = false            
   heroStyle = "basic"
-  showSummary = true          # Muestra el resumen al lado de la imagen
+  showSummary = true          # Muestra el texto a la derecha de la imagen
   showViews = true 
   showLikes = true 
-  showCards = false           # Desactiva los cuadros grandes
-  cardView = false            # Asegura la vista horizontal
-  compact = true              # ESTA ES LA CLAVE: hace la lista pequeña y limpia
+  showCards = false           # IMPORTANTE: Desactiva los cuadros gigantes
+  cardView = false            # Asegura que la lista sea horizontal
+  compact = true              # ESTA ES LA CLAVE: Activa el modo compacto de Blowfish
   showBreadcrumbs = false
   groupByYear = false
   constrainItemsWidth = true
