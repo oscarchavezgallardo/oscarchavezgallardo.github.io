@@ -7,6 +7,7 @@ slug: "getting-started"
 tags: ["docs"]
 series: ["Documentation"]
 series_order: 3
+date: 2026-02-06T14:45:00-06:00 
 ---
 
 {{< alert >}}

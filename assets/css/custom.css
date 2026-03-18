@@ -1,0 +1,19 @@
+.main-menu {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+.fixed.inset-x-0.top-0 {
+  top: -100px !important;
+  height: calc(1000px + 100px) !important;
+}
+
+.home-profile,
+article .relative.px-1 {
+  padding-top: 6rem !important;
+  justify-content: flex-start !important;
+}

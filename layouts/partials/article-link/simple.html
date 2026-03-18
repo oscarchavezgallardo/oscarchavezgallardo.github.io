@@ -1,96 +1,62 @@
-{{/* Used by
-  1. list.html and term.html (when the cardView option is not enabled)
-  2. Recent articles template (when the cardView option is not enabled)
-  3. Shortcode list.html
-*/}}
-{{ $constrainItemsWidth := site.Params.list.constrainItemsWidth | default false }}
 {{ $disableImageOptimization := site.Params.disableImageOptimization | default false }}
-
-{{ $cardClasses := "flex flex-col md:flex-row relative" }}
-{{ $imgWrapperClasses := "" }}
-{{ $cardContentClasses := "" }}
-
-{{ if site.Params.list.showCards }}
-  {{ $cardClasses = printf "%s overflow-hidden rounded-md border-2 border-neutral-200 dark:border-neutral-700" $cardClasses }}
-  {{ $imgWrapperClasses = "" }}
-  {{ $cardContentClasses = printf "%s p-4" $cardContentClasses }}
-{{ else }}
-  {{ $cardClasses = $cardClasses }}
-  {{ $imgWrapperClasses = printf "%s thumbnail-shadow md:mr-7" $imgWrapperClasses }}
-  {{ $cardContentClasses = printf "%s mt-3 md:mt-0" $cardContentClasses }}
-{{ end }}
-
-{{ if $constrainItemsWidth }}
-  {{ $cardClasses = printf "%s max-w-prose" $cardClasses }}
-{{ end }}
-
 {{ $page := .Page }}
 {{ $featured := "" }}
 {{ $featuredURL := "" }}
 {{ if not .Params.hideFeatureImage }}
-  {{/* frontmatter */}}
-  {{ with $page }}
-    {{ with .Params.featureimage }}
-      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-        {{ if site.Params.hotlinkFeatureImage }}
-          {{ $featuredURL = . }}
-        {{ else }}
-          {{ $featured = resources.GetRemote . }}
-        {{ end }}
-      {{ else }}
-        {{ $featured = resources.Get . }}
-      {{ end }}
-    {{ end }}
-
-    {{/* page resources */}}
-    {{ if not (or $featured $featuredURL) }}
-      {{ $images := .Resources.ByType "image" }}
-      {{ range slice "*feature*" "*cover*" "*thumbnail*" }}
-        {{ if not $featured }}{{ $featured = $images.GetMatch . }}{{ end }}
-      {{ end }}
-    {{ end }}
-
-    {{/* fallback to default - ESTE BLOQUE SIGUE COMENTADO */}}
-    {{/* if not (or $featured $featuredURL) }}
-      {{ $default := site.Store.Get "defaultFeaturedImage" }}
-      {{ if $default.url }}
-        {{ $featuredURL = $default.url }}
-      {{ else if $default.obj }}
-        {{ $featured = $default.obj }}
-      {{ end }}
-    {{ end */}}
-
-    {{/* generate image URL if not hotlink */}}
-    {{ if not $featuredURL }}
-      {{ with $featured }}
-        {{ $featuredURL = .RelPermalink }}
-        {{ if not (or $disableImageOptimization (eq .MediaType.SubType "svg")) }}
-          {{ $featuredURL = (.Resize "600x").RelPermalink }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+  {{ with $page }}
+    {{ with .Params.featureimage }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $featured = resources.GetRemote . }}
+      {{ else }}
+        {{ $featured = resources.Get . }}
+      {{ end }}
+    {{ end }}
+    {{ if not (or $featured $featuredURL) }}
+      {{ $images := .Resources.ByType "image" }}
+      {{ range slice "*feature*" "*cover*" "*thumbnail*" }}
+        {{ if not $featured }}{{ $featured = $images.GetMatch . }}{{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if not $featuredURL }}
+      {{ with $featured }}
+        {{ $featuredURL = .RelPermalink }}
+        {{ if not (or $disableImageOptimization (eq .MediaType.SubType "svg")) }}
+          {{ $featuredURL = (.Resize "300x").RelPermalink }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 
-
-<article id="post-link-{{ .File.UniqueID }}" class="post-link-card">
-    {{ with $featuredURL }}
-        <div class="thumbnail-wrapper">
-            <img
-                src="{{ . }}"
-                alt="{{ $.Params.featuredImageAlt | default ($.Title | emojify) }}"
-                loading="lazy"
-                decoding="async">
+<article class="flex flex-row gap-8 mb-15 items-start">
+  {{ with $featuredURL }}
+  <a href="{{ $page.RelPermalink }}" class="flex-none not-prose" style="width:320px; min-width:320px; height:213px; overflow:hidden; border-radius:8px; display:block;">
+    <img
+        src="{{ . }}"
+        alt="{{ $.Title | emojify }}"
+        loading="lazy"
+        decoding="async"
+        style="width:100%; height:100%; object-fit:cover;">
+  </a>
+  {{ end }}
+  <div class="flex flex-col justify-start gap-1" style="padding-left: 1rem;">
+    <a href="{{ $page.RelPermalink }}" class="not-prose text-xl font-bold text-neutral-800 dark:text-neutral hover:underline hover:underline-offset-2 decoration-primary-500">
+      {{ .Title | emojify }}
+    </a>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      {{ partial "article-meta/basic.html" . }}
+    </div>
+    {{ with .Params.tags }}
+        <div class="flex flex-wrap gap-3 mt-2">
+            {{ range . }}
+                <span class="text-xs px-3 py-1 rounded-full bg-primary-800 dark:bg-primary-900 border border-primary-500 text-primary-200 dark:text-primary-300">
+                    {{ . }}
+                </span>
+            {{ end }}
         </div>
     {{ end }}
-    <div class="content-wrapper">
-            <header>
-                <a href="{{ .RelPermalink }}">
-                    <h2 class="title">{{ .Title | emojify }}</h2>
-                </a>
-            </header>
-            <div class="meta-data">
-                 {{ partial "article-meta/basic.html" . }}
-            </div>
-        </div>
+    <div class="prose dark:prose-invert text-base mt-2 line-clamp-3">
+        {{ with .Params.description }}{{ . }}{{ else }}{{ $page.Summary | plainify }}{{ end }}
+    </div>
+  </div>
 </article>

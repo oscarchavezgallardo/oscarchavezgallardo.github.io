@@ -6,6 +6,7 @@ description: "Discover what's new in Blowfish version 2.0."
 tags: ["new", "docs"]
 series: ["Documentation"]
 series_order: 1
+date: 2026-02-06T14:45:00-06:00 
 ---
 
 {{< lead >}}

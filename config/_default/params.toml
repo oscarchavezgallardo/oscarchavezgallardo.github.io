@@ -64,3 +64,5 @@ defaultSocialImage = "/android-chrome-512x512.png"
 [buymeacoffee]
   identifier = "oscarchavezgallardo"
   globalWidget = true
+
+customCSS = ["css/custom.css"]
