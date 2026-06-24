@@ -21,7 +21,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           # CAMBIO 1: Usar una versión reciente compatible con el tema
-          hugo-version: "0.121.1" 
+          hugo-version: "0.154.3" 
           # CAMBIO 2: Asegurar que usa la versión Extended (necesaria para muchos temas)
           extended: true 
       - name: Build
