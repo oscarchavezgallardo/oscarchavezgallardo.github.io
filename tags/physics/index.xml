@@ -1,2 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>physics on Oscar Page</title><link>https://oscarchavezgallardo.github.io/tags/physics/</link><description>Recent content in physics on Oscar Page</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</managingEditor><webMaster>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</webMaster><copyright>© 2026 Oscar Chávez Gallardo</copyright><lastBuildDate>Mon, 13 Apr 2026 14:45:00 -0600</lastBuildDate><atom:link href="https://oscarchavezgallardo.github.io/tags/physics/index.xml" rel="self" type="application/rss+xml"/><item><title>Oscilador Armónico Unidimensional</title><link>https://oscarchavezgallardo.github.io/posts/operadores/</link><pubDate>Mon, 13 Apr 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/operadores/</guid><description>Importancia del oscilador armónico en física. # Este capitulo está dedicado al estudio particular de un sistema físico importante: el oscilador armónico unidimensional.
-El ejemplo más simple de este sistema es que una partícula de masa m moviendose en un potencial el cúal depende solo de x y tiene la forma:</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/operadores/featured.png"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Physics on Oscar Page</title><link>https://oscarchavezgallardo.github.io/tags/physics/</link><description>Recent content in Physics on Oscar Page</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</managingEditor><webMaster>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</webMaster><copyright>© 2026 Oscar Chávez Gallardo</copyright><lastBuildDate>Mon, 13 Apr 2026 14:45:00 -0600</lastBuildDate><atom:link href="https://oscarchavezgallardo.github.io/tags/physics/index.xml" rel="self" type="application/rss+xml"/><item><title>Oscilador Armónico Unidimensional</title><link>https://oscarchavezgallardo.github.io/posts/operadores/</link><pubDate>Mon, 13 Apr 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/operadores/</guid><description>&lt;h3 class="relative group"&gt;Importancia del oscilador armónico en física.
+&lt;div id="importancia-del-oscilador-armónico-en-física" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#importancia-del-oscilador-arm%c3%b3nico-en-f%c3%adsica" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;!--
+&lt;div
+id="carousel-127eaba446f29352c93186c3e2b229df-1782315029963234638"
+class="relative"
+data-twe-carousel-init
+data-twe-ride="carousel"
+data-twe-interval="2000"&gt;
+&lt;div
+class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
+data-twe-carousel-indicators&gt;
+&lt;button
+type="button"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315029963234638"
+data-twe-slide-to="0"
+data-twe-carousel-active aria-current="true"
+class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+aria-label="Slide 0"&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']"&gt;
+&lt;div
+class="relative float-left -mr-[100%] w-full transition-transform ease-in-out motion-reduce:transition-none"
+data-twe-carousel-item
+style="transition-duration: 2000ms;"
+data-twe-carousel-active&gt;
+&lt;div
+class="single_hero_background"
+style="aspect-ratio: 16 / 9;"&gt;
+&lt;img
+src="https://oscarchavezgallardo.github.io/mountains-1899264_960_720_14245824459852564187.jpg"
+class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+alt="carousel image 1"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;button
+class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+type="button"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315029963234638"
+data-twe-slide="prev"&gt;
+&lt;span class="inline-block h-8 w-8"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+fill="none"
+viewBox="0 0 24 24"
+stroke-width="4.5"
+stroke="currentColor"
+class="h-6 w-6"&gt;
+&lt;path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span
+class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+&gt;Previous&lt;/span
+&gt;
+&lt;/button&gt;
+&lt;button
+class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+type="button"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315029963234638"
+data-twe-slide="next"&gt;
+&lt;span class="inline-block h-8 w-8"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+fill="none"
+viewBox="0 0 24 24"
+stroke-width="4.5"
+stroke="currentColor"
+class="h-6 w-6"&gt;
+&lt;path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span
+class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+&gt;Next&lt;/span
+&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Este capitulo está dedicado al estudio particular de un sistema físico importante: el oscilador armónico unidimensional.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/operadores/featured.png"/></item></channel></rss>

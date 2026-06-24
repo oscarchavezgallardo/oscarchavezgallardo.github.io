@@ -1,7 +1,225 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bienvenido a mi Blog! on Oscar Page</title><link>https://oscarchavezgallardo.github.io/</link><description>Recent content in Bienvenido a mi Blog! on Oscar Page</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</managingEditor><webMaster>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</webMaster><copyright>© 2026 Oscar Chávez Gallardo</copyright><lastBuildDate>Mon, 13 Apr 2026 14:45:00 -0600</lastBuildDate><atom:link href="https://oscarchavezgallardo.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to Blowfish</title><link>https://oscarchavezgallardo.github.io/docs/welcome/</link><pubDate>Fri, 06 Feb 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/docs/welcome/</guid><description>Blowfish is packed with tons of features. The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of Congo and expands its initial vision.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/docs/welcome/featured.svg"/></item><item><title>Getting Started</title><link>https://oscarchavezgallardo.github.io/docs/getting-started/</link><pubDate>Fri, 06 Feb 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/docs/getting-started/</guid><description>This section assumes you have already installed the Blowfish theme. We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/docs/getting-started/featured.svg"/></item><item><title>Música de Inspiración</title><link>https://oscarchavezgallardo.github.io/posts/m%C3%BAsica/</link><pubDate>Thu, 01 Jan 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/m%C3%BAsica/</guid><description>En esta entrada me gustaría compartir algunas de las canciones que más han marcado mi personalidad a lo largo de estos años. Siento que todas las personas tenemos una afición particular por cierto tipo de música, bien, creo que empezé a definir los géneros que más me gustan a partir de la música alternativa y experimental, a partir del año 2019, cuando descubrí el lo-fi.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/m%C3%BAsica/featured.png"/></item><item><title>Series</title><link>https://oscarchavezgallardo.github.io/docs/series/</link><pubDate>Fri, 06 Feb 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/docs/series/</guid><description>Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/docs/series/featured.svg"/></item><item><title>Oscilador Armónico Unidimensional</title><link>https://oscarchavezgallardo.github.io/posts/operadores/</link><pubDate>Mon, 13 Apr 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/operadores/</guid><description>Importancia del oscilador armónico en física. # Este capitulo está dedicado al estudio particular de un sistema físico importante: el oscilador armónico unidimensional.
-El ejemplo más simple de este sistema es que una partícula de masa m moviendose en un potencial el cúal depende solo de x y tiene la forma:</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/operadores/featured.png"/></item><item><title>Ensayo sobre la IA</title><link>https://oscarchavezgallardo.github.io/posts/ensayo-ia/</link><pubDate>Thu, 06 Nov 2025 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/ensayo-ia/</guid><description> Anexamos el video tutorial de como escribir en Latex. # Aquí introducimos como poner ecuaciones en Latex.
-Call to Action Referencias #</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/ensayo-ia/featured.png"/></item><item><title>Susan Sontag</title><link>https://oscarchavezgallardo.github.io/posts/otro-mas/</link><pubDate>Thu, 06 Nov 2025 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/otro-mas/</guid><description> Anexamos el video tutorial de como escribir en Latex. # Previous Next Aquí introducimos como poner ecuaciones en Latex.
-(f(a,b,c) = (a^2+b^2+c^2)^3)
-Referencias # Tutorial de LaTex &amp;hellip; test code: - test</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/otro-mas/featured.png"/></item><item><title>Tutorial para escribir en LaTex</title><link>https://oscarchavezgallardo.github.io/posts/latex-tutorial/</link><pubDate>Thu, 06 Nov 2025 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/latex-tutorial/</guid><description> Anexamos el video tutorial de como escribir en Latex. # Aquí introducimos como poner ecuaciones en Latex.
-Call to Action Referencias # Tutorial de LaTex &amp;hellip; test code: - test</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/latex-tutorial/featured.png"/></item><item><title>Tutorial para escribir en LaTex</title><link>https://oscarchavezgallardo.github.io/posts/ml-tutorial/</link><pubDate>Thu, 06 Nov 2025 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/ml-tutorial/</guid><description> Anexamos el video tutorial de como escribir en Latex. # Aquí introducimos como poner ecuaciones en Latex.
-Call to Action Referencias # Tutorial de LaTex &amp;hellip; test code: - test</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/ml-tutorial/featured.png"/></item><item><title/><link>https://oscarchavezgallardo.github.io/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/resources/</guid><description/></item><item><title>Acerca de mí</title><link>https://oscarchavezgallardo.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/about/</guid><description>Algo especial sobre mí xd</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bienvenido a mi Blog! on Oscar Page</title><link>https://oscarchavezgallardo.github.io/</link><description>Recent content in Bienvenido a mi Blog! on Oscar Page</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</managingEditor><webMaster>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</webMaster><copyright>© 2026 Oscar Chávez Gallardo</copyright><lastBuildDate>Mon, 13 Apr 2026 14:45:00 -0600</lastBuildDate><atom:link href="https://oscarchavezgallardo.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to Blowfish</title><link>https://oscarchavezgallardo.github.io/docs/welcome/</link><pubDate>Fri, 06 Feb 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/docs/welcome/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl"&gt;
+Blowfish is packed with tons of features.
+&lt;/div&gt;
+&lt;p&gt;The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of &lt;a target="_blank" href="https://github.com/nunocoracao/congo"&gt;Congo&lt;/a&gt; and expands its initial vision.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/docs/welcome/featured.svg"/></item><item><title>Getting Started</title><link>https://oscarchavezgallardo.github.io/docs/getting-started/</link><pubDate>Fri, 06 Feb 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/docs/getting-started/</guid><description>&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+&gt;
+&lt;span
+class="text-primary-400 pe-3 flex items-center"
+&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;span
+class="dark:text-neutral-300"
+&gt;This section assumes you have already &lt;a
+href="https://oscarchavezgallardo.github.io/docs/welcome/"
+target="_blank"
+&gt;installed the Blowfish theme&lt;/a&gt;.&lt;/span&gt;
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+&gt;
+&lt;span
+class="text-primary-400 pe-3 flex items-center"
+&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;
+&lt;path fill="currentColor" d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z"/&gt;&lt;/svg&gt;&lt;/span&gt;
+&lt;/span&gt;
+&lt;span
+class="dark:text-neutral-300"
+&gt;&lt;p&gt;We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration. Install the CLI tool globally using:&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/docs/getting-started/featured.svg"/></item><item><title>Música de Inspiración</title><link>https://oscarchavezgallardo.github.io/posts/m%C3%BAsica/</link><pubDate>Thu, 01 Jan 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/m%C3%BAsica/</guid><description>&lt;p&gt;En esta entrada me gustaría compartir algunas de las canciones que más han marcado mi personalidad a lo largo de estos años. Siento que todas las personas tenemos una afición particular por cierto tipo de música, bien, creo que empezé a definir los géneros que más me gustan a partir de la música alternativa y experimental, a partir del año 2019, cuando descubrí el lo-fi.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/m%C3%BAsica/featured.png"/></item><item><title>Series</title><link>https://oscarchavezgallardo.github.io/docs/series/</link><pubDate>Fri, 06 Feb 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/docs/series/</guid><description>&lt;p&gt;Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them. You can see an example of this above.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/docs/series/featured.svg"/></item><item><title>Oscilador Armónico Unidimensional</title><link>https://oscarchavezgallardo.github.io/posts/operadores/</link><pubDate>Mon, 13 Apr 2026 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/operadores/</guid><description>&lt;h3 class="relative group"&gt;Importancia del oscilador armónico en física.
+&lt;div id="importancia-del-oscilador-armónico-en-física" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#importancia-del-oscilador-arm%c3%b3nico-en-f%c3%adsica" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;!--
+&lt;div
+id="carousel-127eaba446f29352c93186c3e2b229df-1782315029963234638"
+class="relative"
+data-twe-carousel-init
+data-twe-ride="carousel"
+data-twe-interval="2000"&gt;
+&lt;div
+class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
+data-twe-carousel-indicators&gt;
+&lt;button
+type="button"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315029963234638"
+data-twe-slide-to="0"
+data-twe-carousel-active aria-current="true"
+class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+aria-label="Slide 0"&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']"&gt;
+&lt;div
+class="relative float-left -mr-[100%] w-full transition-transform ease-in-out motion-reduce:transition-none"
+data-twe-carousel-item
+style="transition-duration: 2000ms;"
+data-twe-carousel-active&gt;
+&lt;div
+class="single_hero_background"
+style="aspect-ratio: 16 / 9;"&gt;
+&lt;img
+src="https://oscarchavezgallardo.github.io/mountains-1899264_960_720_14245824459852564187.jpg"
+class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+alt="carousel image 1"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;button
+class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+type="button"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315029963234638"
+data-twe-slide="prev"&gt;
+&lt;span class="inline-block h-8 w-8"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+fill="none"
+viewBox="0 0 24 24"
+stroke-width="4.5"
+stroke="currentColor"
+class="h-6 w-6"&gt;
+&lt;path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span
+class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+&gt;Previous&lt;/span
+&gt;
+&lt;/button&gt;
+&lt;button
+class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+type="button"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315029963234638"
+data-twe-slide="next"&gt;
+&lt;span class="inline-block h-8 w-8"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+fill="none"
+viewBox="0 0 24 24"
+stroke-width="4.5"
+stroke="currentColor"
+class="h-6 w-6"&gt;
+&lt;path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span
+class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+&gt;Next&lt;/span
+&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+--&gt;
+&lt;p&gt;Este capitulo está dedicado al estudio particular de un sistema físico importante: el oscilador armónico unidimensional.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/operadores/featured.png"/></item><item><title>Ensayo sobre la IA</title><link>https://oscarchavezgallardo.github.io/posts/ensayo-ia/</link><pubDate>Thu, 06 Nov 2025 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/ensayo-ia/</guid><description>&lt;lite-youtube videoid="HzOAHRli6I" playlabel="HzOAHRli6I" params=""&gt;&lt;/lite-youtube&gt;
+&lt;h3 class="relative group"&gt;Anexamos el video tutorial de como escribir en Latex.
+&lt;div id="anexamos-el-video-tutorial-de-como-escribir-en-latex" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#anexamos-el-video-tutorial-de-como-escribir-en-latex" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Aquí introducimos como poner ecuaciones en Latex.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/ensayo-ia/featured.png"/></item><item><title>Susan Sontag</title><link>https://oscarchavezgallardo.github.io/posts/otro-mas/</link><pubDate>Thu, 06 Nov 2025 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/otro-mas/</guid><description>&lt;lite-youtube videoid="NFgyc0DKw_w" playlabel="NFgyc0DKw_w" params=""&gt;&lt;/lite-youtube&gt;
+&lt;h3 class="relative group"&gt;Anexamos el video tutorial de como escribir en Latex.
+&lt;div id="anexamos-el-video-tutorial-de-como-escribir-en-latex" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#anexamos-el-video-tutorial-de-como-escribir-en-latex" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;div
+id="carousel-595c52c8e5490a9893518a48125b17de-1782315029941752296"
+class="relative"
+data-twe-carousel-init
+data-twe-ride="carousel"
+data-twe-interval="2000"&gt;
+&lt;div
+class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
+data-twe-carousel-indicators&gt;
+&lt;button
+type="button"
+data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782315029941752296"
+data-twe-slide-to="0"
+data-twe-carousel-active aria-current="true"
+class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+aria-label="Slide 0"&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']"&gt;
+&lt;div
+class="relative float-left -mr-[100%] w-full transition-transform ease-in-out motion-reduce:transition-none"
+data-twe-carousel-item
+style="transition-duration: 2000ms;"
+data-twe-carousel-active&gt;
+&lt;div
+class="single_hero_background"
+style="aspect-ratio: 16 / 9;"&gt;
+&lt;img
+src="https://oscarchavezgallardo.github.io/mountains-1899264_960_720_14245824459852564187.jpg"
+class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+alt="carousel image 1"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;button
+class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+type="button"
+data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782315029941752296"
+data-twe-slide="prev"&gt;
+&lt;span class="inline-block h-8 w-8"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+fill="none"
+viewBox="0 0 24 24"
+stroke-width="4.5"
+stroke="currentColor"
+class="h-6 w-6"&gt;
+&lt;path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span
+class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+&gt;Previous&lt;/span
+&gt;
+&lt;/button&gt;
+&lt;button
+class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+type="button"
+data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782315029941752296"
+data-twe-slide="next"&gt;
+&lt;span class="inline-block h-8 w-8"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+fill="none"
+viewBox="0 0 24 24"
+stroke-width="4.5"
+stroke="currentColor"
+class="h-6 w-6"&gt;
+&lt;path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span
+class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+&gt;Next&lt;/span
+&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;p&gt;Aquí introducimos como poner ecuaciones en Latex.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/otro-mas/featured.png"/></item><item><title>Tutorial para escribir en LaTex</title><link>https://oscarchavezgallardo.github.io/posts/latex-tutorial/</link><pubDate>Thu, 06 Nov 2025 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/latex-tutorial/</guid><description>&lt;lite-youtube videoid="NFgyc0DKw_w" playlabel="NFgyc0DKw_w" params=""&gt;&lt;/lite-youtube&gt;
+&lt;h3 class="relative group"&gt;Anexamos el video tutorial de como escribir en Latex.
+&lt;div id="anexamos-el-video-tutorial-de-como-escribir-en-latex" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#anexamos-el-video-tutorial-de-como-escribir-en-latex" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Aquí introducimos como poner ecuaciones en Latex.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/latex-tutorial/featured.png"/></item><item><title>Tutorial para escribir en LaTex</title><link>https://oscarchavezgallardo.github.io/posts/ml-tutorial/</link><pubDate>Thu, 06 Nov 2025 14:45:00 -0600</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/posts/ml-tutorial/</guid><description>&lt;lite-youtube videoid="NFgyc0DKw_w" playlabel="NFgyc0DKw_w" params=""&gt;&lt;/lite-youtube&gt;
+&lt;h3 class="relative group"&gt;Anexamos el video tutorial de como escribir en Latex.
+&lt;div id="anexamos-el-video-tutorial-de-como-escribir-en-latex" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#anexamos-el-video-tutorial-de-como-escribir-en-latex" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Aquí introducimos como poner ecuaciones en Latex.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://oscarchavezgallardo.github.io/posts/ml-tutorial/featured.png"/></item><item><title/><link>https://oscarchavezgallardo.github.io/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/resources/</guid><description/></item><item><title>Acerca de mí</title><link>https://oscarchavezgallardo.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>odchg@ciencias.unam.mx (Oscar Chávez Gallardo)</author><guid>https://oscarchavezgallardo.github.io/about/</guid><description>&lt;p&gt;Algo especial sobre mí xd&lt;/p&gt;</description></item></channel></rss>
