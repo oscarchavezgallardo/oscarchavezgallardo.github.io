@@ -12,6 +12,8 @@ disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = false
 
+enableMathNotation = true
+
 # Estilos de fondo
 defaultBackgroundImage = "img/wald.jpg" 
 defaultFeaturedImage = "img/cover.png" 
