@@ -38,7 +38,7 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;/h3&gt;
 &lt;!--
 &lt;div
-id="carousel-127eaba446f29352c93186c3e2b229df-1782315813109064644"
+id="carousel-127eaba446f29352c93186c3e2b229df-1782810405505778749"
 class="relative"
 data-twe-carousel-init
 data-twe-ride="carousel"
@@ -48,7 +48,7 @@ class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justif
 data-twe-carousel-indicators&gt;
 &lt;button
 type="button"
-data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315813109064644"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782810405505778749"
 data-twe-slide-to="0"
 data-twe-carousel-active aria-current="true"
 class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
@@ -73,7 +73,7 @@ alt="carousel image 1"&gt;
 &lt;button
 class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
 type="button"
-data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315813109064644"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782810405505778749"
 data-twe-slide="prev"&gt;
 &lt;span class="inline-block h-8 w-8"&gt;
 &lt;svg
@@ -94,7 +94,7 @@ class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-
 &lt;button
 class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
 type="button"
-data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782315813109064644"
+data-twe-target="#carousel-127eaba446f29352c93186c3e2b229df-1782810405505778749"
 data-twe-slide="next"&gt;
 &lt;span class="inline-block h-8 w-8"&gt;
 &lt;svg
@@ -131,7 +131,7 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;/span&gt;
 &lt;/h3&gt;
 &lt;div
-id="carousel-595c52c8e5490a9893518a48125b17de-1782315813112954645"
+id="carousel-595c52c8e5490a9893518a48125b17de-1782810405480856099"
 class="relative"
 data-twe-carousel-init
 data-twe-ride="carousel"
@@ -141,7 +141,7 @@ class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justif
 data-twe-carousel-indicators&gt;
 &lt;button
 type="button"
-data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782315813112954645"
+data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782810405480856099"
 data-twe-slide-to="0"
 data-twe-carousel-active aria-current="true"
 class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
@@ -166,7 +166,7 @@ alt="carousel image 1"&gt;
 &lt;button
 class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
 type="button"
-data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782315813112954645"
+data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782810405480856099"
 data-twe-slide="prev"&gt;
 &lt;span class="inline-block h-8 w-8"&gt;
 &lt;svg
@@ -187,7 +187,7 @@ class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-
 &lt;button
 class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
 type="button"
-data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782315813112954645"
+data-twe-target="#carousel-595c52c8e5490a9893518a48125b17de-1782810405480856099"
 data-twe-slide="next"&gt;
 &lt;span class="inline-block h-8 w-8"&gt;
 &lt;svg
