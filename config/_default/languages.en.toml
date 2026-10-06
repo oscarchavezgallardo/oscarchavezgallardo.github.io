@@ -17,7 +17,7 @@ title = "Oscar Page"
  [params.author]
    name = "Oscar Chávez Gallardo"
    email = "odchg@ciencias.unam.mx"
-   image = "img/avatar.jpg"
+   image = "img/avatar.jpeg"
    imageQuality = 96
    headline = "Hi! I'm Oscar, Physicist & Technology Developer"
    bio = "Me entusiasma aprender sobre ciencia, tecnología y la naturaleza en si misma."
