@@ -11,9 +11,10 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-name = "Posts"
-pageRef = "docs"
+name = "Data Science y Machine Learning"
+pageRef = "data-science-ml"
 weight = 10
+
 
 # [[main]]
 #   name = "Parent"
@@ -26,9 +27,10 @@ weight = 10
 #   weight = 20
 
 [[main]]
-name = "Libros y Películas"
-pageRef = "posts"
+name = "Física"
+pageRef = "physics"
 weight = 20
+
 
 # [[subnavigation]]
 #   name = "An interesting topic"
@@ -42,13 +44,13 @@ weight = 20
 #  weight = 20
 
 [[main]]
-name = "Categories"
+name = "Proyectos"
 pageRef = "categories"
 weight = 30
 
 [[main]]
-name = "Tags"
-pageRef = "tags"
+name = "Tutorias"
+pageRef = "tutorias"
 weight = 40
 
 
