@@ -4,7 +4,7 @@ weight: 3
 draft: false
 description: "Quizá la única forma de mantenernos únicos, es interpretar el arte a nuestra manera."
 slug: "Música"
-tags: ["music", "chillout"]
+tags: ["intereses", "musica"]
 series: ["Música"]
 series_order: 3
 date: 2026-01-01T14:45:00-06:00 

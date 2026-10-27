@@ -4,7 +4,7 @@ weight: 3
 draft: false
 description: "All the front matter variables available in Blowfish."
 slug: "getting-started"
-tags: ["docs"]
+tags: ["data-science-ml"]
 series: ["Documentation"]
 series_order: 3
 date: 2026-02-06T14:45:00-06:00 

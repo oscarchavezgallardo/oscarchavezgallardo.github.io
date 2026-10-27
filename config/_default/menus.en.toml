@@ -45,12 +45,12 @@ weight = 20
 
 [[main]]
 name = "Proyectos"
-pageRef = "categories"
+pageRef = "series"
 weight = 30
 
 [[main]]
 name = "Tutorias"
-pageRef = "tutorias"
+pageRef = "categories"
 weight = 40
 
 

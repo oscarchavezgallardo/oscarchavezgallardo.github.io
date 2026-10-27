@@ -38,6 +38,8 @@ defaultSocialImage = "/android-chrome-512x512.png"
   layoutBackgroundBlur = true 
 
 [article]
+  showViews = true
+  showLikes = true
   showAuthor = true
   showHero = false
   heroStyle = "basic" 
@@ -50,21 +52,31 @@ defaultSocialImage = "/android-chrome-512x512.png"
   showSummary = true          # Muestra el texto a la derecha de la imagen
   showViews = true 
   showLikes = true 
-  showCards = false           # IMPORTANTE: Desactiva los cuadros gigantes
-  cardView = false            # Asegura que la lista sea horizontal
+  showCards = true           # IMPORTANTE: Desactiva los cuadros gigantes
+  cardView = true            # Asegura que la lista sea horizontal
   compact = true              # ESTA ES LA CLAVE: Activa el modo compacto de Blowfish
   showBreadcrumbs = false
   groupByYear = false
-  constrainItemsWidth = true
+  constrainItemsWidth = false
 
 [taxonomy]
-  cardView = false
+  cardView = true
 
 [term]
-  cardView = false 
+  cardView = true
 
 [buymeacoffee]
   identifier = "oscarchavezgallardo"
   globalWidget = true
+
+[firebase]
+  apiKey = "AIzaSyAzK6ArNkFs-gScr0dCTK6xa_kYS2j49rc"
+  authDomain = "portafolio-personal-a37dd.firebaseapp.com"
+  projectId = "portafolio-personal-a37dd"
+  storageBucket = "portafolio-personal-a37dd.firebasestorage.app"
+  messagingSenderId = "500139592167"
+  appId = "1:500139592167:web:dadae020a25829a3779542"
+  measurementId = "G-5VLEW1WY5S"
+
 
 customCSS = ["css/custom.css"]

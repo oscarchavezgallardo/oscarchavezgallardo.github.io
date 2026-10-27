@@ -1,13 +1,15 @@
-.main-menu {
-  background-color: transparent !important;
-  background: transparent !important;
-}
-
-html, body {
+html {
   min-height: 100%;
+  overflow-x: hidden;
 }
 
-.fixed.inset-x-0.top-0 {
+body {
+  max-width: 100%;
+  overflow-x: clip; /* recorta el desborde sin volver al body un contenedor de scroll */
+}
+
+/* Imagen de fondo extendida hacia arriba (solo la imagen, no el blur) */
+.fixed.inset-x-0.top-0[style*="z-index:-10"] {
   top: -100px !important;
   height: calc(1000px + 100px) !important;
 }
@@ -21,7 +23,7 @@ article .relative.px-1 {
 /* Tarjetas de posts recientes */
 .post-card {
   display: flex;
-  flex-direction: column;   /* móvil: imagen arriba, texto abajo */
+  flex-direction: column;
   gap: 1rem;
   margin-bottom: 3rem;
 }
@@ -45,7 +47,6 @@ article .relative.px-1 {
   min-width: 0;
 }
 
-/* Pantallas medianas y grandes: imagen a la izquierda */
 @media (min-width: 768px) {
   .post-card {
     flex-direction: row;
@@ -63,12 +64,6 @@ article .relative.px-1 {
   .post-text {
     padding-left: 1rem;
   }
-}
-
-/* Evita que la página se ensanche más que la pantalla */
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 /* Video siempre dentro de la pantalla */

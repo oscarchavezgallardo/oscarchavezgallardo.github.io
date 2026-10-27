@@ -1,0 +1,13 @@
+{{ $recentArticles := .Site.Params.homepage.showRecentItems | default 5 }}
+
+{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ $pages = sort $pages "Date" "desc" }}
+{{ $pinned := where $pages "Params.pinned" true }}
+{{ $rest := where $pages "Params.pinned" "!=" true }}
+{{ $ordered := $pinned | append $rest }}
+
+<section class="space-y-10 w-full">
+  {{ range first $recentArticles (.Paginate $ordered).Pages }}
+    {{ partial "article-link/simple.html" . }}
+  {{ end }}
+</section>
