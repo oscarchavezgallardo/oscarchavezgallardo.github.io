@@ -64,3 +64,34 @@ article .relative.px-1 {
     padding-left: 1rem;
   }
 }
+
+/* Evita que la página se ensanche más que la pantalla */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Video siempre dentro de la pantalla */
+lite-youtube,
+iframe,
+video {
+  max-width: 100% !important;
+}
+
+lite-youtube {
+  width: 100% !important;
+}
+
+/* Celular: el texto animado se ajusta al ancho */
+@media (max-width: 767px) {
+  .typing-container .typing-text {
+    display: block !important;
+    white-space: normal !important;
+    width: auto !important;
+    border-right: none !important;
+    animation: none !important;
+    letter-spacing: 0.03em !important;
+    font-size: 0.95rem;
+    overflow: visible !important;
+  }
+}
