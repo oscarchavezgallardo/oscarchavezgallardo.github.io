@@ -28,35 +28,34 @@
   {{ end }}
 {{ end }}
 
-<article class="flex flex-row gap-8 mb-15 items-start">
+<article class="post-card">
   {{ with $featuredURL }}
-  <a href="{{ $page.RelPermalink }}" class="flex-none not-prose" style="width:320px; min-width:320px; height:213px; overflow:hidden; border-radius:8px; display:block;">
+  <a href="{{ $page.RelPermalink }}" class="post-thumb not-prose">
     <img
-        src="{{ . }}"
-        alt="{{ $.Title | emojify }}"
-        loading="lazy"
-        decoding="async"
-        style="width:100%; height:100%; object-fit:cover;">
+      src="{{ . }}"
+      alt="{{ $.Title | emojify }}"
+      loading="lazy"
+      decoding="async">
   </a>
   {{ end }}
-  <div class="flex flex-col justify-start gap-1" style="padding-left: 1rem;">
-    <a href="{{ $page.RelPermalink }}" class="not-prose text-xl font-bold text-neutral-800 dark:text-neutral hover:underline hover:underline-offset-2 decoration-primary-500">
+  <div class="post-text flex flex-col justify-start gap-1">
+    <a href="{{ $page.RelPermalink }}" class="not-prose text-2xl font-bold text-neutral-800 dark:text-neutral hover:underline hover:underline-offset-2 decoration-primary-500">
       {{ .Title | emojify }}
     </a>
     <div class="text-sm text-neutral-500 dark:text-neutral-400">
       {{ partial "article-meta/basic.html" . }}
     </div>
     {{ with .Params.tags }}
-        <div class="flex flex-wrap gap-3 mt-2">
-            {{ range . }}
-                <span class="text-xs px-3 py-1 rounded-full bg-primary-800 dark:bg-primary-900 border border-primary-500 text-primary-200 dark:text-primary-300">
-                    {{ . }}
-                </span>
-            {{ end }}
-        </div>
+      <div class="flex flex-wrap gap-3 mt-2">
+        {{ range . }}
+          <span class="text-xs px-3 py-1 rounded-full bg-primary-800 dark:bg-primary-900 border border-primary-500 text-primary-200 dark:text-primary-300">
+            {{ . }}
+          </span>
+        {{ end }}
+      </div>
     {{ end }}
     <div class="prose dark:prose-invert text-base mt-2 line-clamp-3">
-        {{ with .Params.description }}{{ . }}{{ else }}{{ $page.Summary | plainify }}{{ end }}
+      {{ with .Params.description }}{{ . }}{{ else }}{{ $page.Summary | plainify }}{{ end }}
     </div>
   </div>
 </article>
