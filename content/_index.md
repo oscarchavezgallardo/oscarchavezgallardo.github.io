@@ -3,7 +3,7 @@ title: "Bienvenido a mi Blog!"
 description: "Esta página fue creada con HUGO."
 ---
 
-                        ¡Bienvenido a mi página Web!
+                    ¡Bienvenido a mi página Web!
 
 <div class="typing-container" style="text-align: center; margin: 20px 0; font-family: monospace; min-height: 1.5em;">
   <span class="typing-text">Explorando las fronteras entre la física y la tecnología...</span>
