@@ -52,18 +52,18 @@ defaultSocialImage = "/android-chrome-512x512.png"
   showSummary = true          # Muestra el texto a la derecha de la imagen
   showViews = true 
   showLikes = true 
-  showCards = true           # IMPORTANTE: Desactiva los cuadros gigantes
-  cardView = true            # Asegura que la lista sea horizontal
+  showCards = false          # IMPORTANTE: Desactiva los cuadros gigantes
+  cardView = false            # Asegura que la lista sea horizontal
   compact = true              # ESTA ES LA CLAVE: Activa el modo compacto de Blowfish
   showBreadcrumbs = false
   groupByYear = false
-  constrainItemsWidth = false
+  constrainItemsWidth = true
 
 [taxonomy]
-  cardView = true
+  cardView = false
 
 [term]
-  cardView = true
+  cardView = false
 
 [buymeacoffee]
   identifier = "oscarchavezgallardo"

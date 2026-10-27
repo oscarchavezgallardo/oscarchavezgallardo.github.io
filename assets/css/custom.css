@@ -90,3 +90,66 @@ lite-youtube {
     overflow: visible !important;
   }
 }
+
+/* Cuadrícula de tarjetas en secciones, categorías y tags (no en la portada) */
+body:not(:has(#background)) section:has(> .post-card) {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  body:not(:has(#background)) section:has(> .post-card) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  body:not(:has(#background)) section:has(> .post-card) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Cada post como tarjeta vertical: imagen arriba, texto abajo */
+body:not(:has(#background)) section:has(> .post-card) > .post-card {
+  flex-direction: column;
+  gap: 0;
+  margin: 0 !important;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+body:not(:has(#background)) section:has(> .post-card) .post-thumb {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  border-radius: 0;
+}
+
+body:not(:has(#background)) section:has(> .post-card) .post-text {
+  padding: 1rem;
+}
+
+/* Títulos un poco más chicos para que quepan en 3 columnas */
+body:not(:has(#background)) section:has(> .post-card) .post-text a.text-2xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+table.dataframe {
+  display: block;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  border-collapse: collapse;
+}
+table.dataframe th,
+table.dataframe td {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  text-align: right;
+}
+table.dataframe thead th {
+  background: rgba(59, 130, 246, 0.15);
+}
