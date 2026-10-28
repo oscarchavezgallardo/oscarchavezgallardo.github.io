@@ -1,7 +1,7 @@
 ---
 title: "Análisis exploratorio de datos: comparaciones"
 description: "Comparaciones entre grupos, medias y tendencias temporales con pandas y seaborn."
-date: 2026-10-27
+date: 2026-10-01
 tags: ["data-science-ml"]
 ---
 
